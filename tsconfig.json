@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["ES2017", "DOM"],
+    "module": "CommonJS",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "moduleResolution": "Node",
+    "outDir": "build/esm",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ES6",
+    "types": ["jest", "node", "@types/jest"],
+    "typeRoots": ["node_modules/@types", "./typings/"]
+  },
+  "include": ["./src"],
+  "exclude": [
+    "node_modules",
+    "./build",
+    "./src/setupTests.ts",
+    "./src/**/*.test.ts",
+    "./src/**/*.test.tsx",
+    "./src/**/*.stories.ts",
+    "./src/**/*.stories.tsx"
+  ]
+}

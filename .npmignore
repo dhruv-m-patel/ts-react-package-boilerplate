@@ -1,0 +1,14 @@
+.eslintignore
+.eslintrc
+typings
+.huskyrc
+.nvmrc
+.prettierignore
+.prettierrc
+build
+jest.config.js
+tsconfig.json
+src
+.github
+**/*.test.tsx
+**/*.stories.tsx
